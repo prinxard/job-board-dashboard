@@ -21,7 +21,7 @@ export default function JobCard({ job }: JobCardProps) {
       <p className="text-gray-600 dark:text-gray-300">{job.location}</p>
       <p className="text-green-600 font-semibold">{job.salary}</p>
       <Link
-        href={`/dashboard/job/${job.id}`}
+        href={`/job/${job.id}`}
         className="inline-block mt-2 bg-blue-600 text-white py-2 px-4 rounded text-center"
       >
         View Details

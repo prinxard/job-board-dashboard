@@ -1,8 +1,9 @@
 {
     "jobItems": [
       {
-        "id": 1343524352354243510,
+        "id": 13435243523542,
         "title": "Full-Stack Developer",
+        "description": "Full-Stack Developer using",
         "company": "LakeOperations",
         "location": "Global",
         "salary": "$80,000+",
@@ -10,8 +11,9 @@
         "companyURL": "https://fictionallakeoperationswebsite.com"
       },
       {
-        "id": 231235423457456745702365,
+        "id": 231235423457456,
         "title": "Front-End Developer",
+        "description": "Full-Stack Developer using",
         "company": "ComputerHaver",
         "location": "Global",
         "salary": "$85,000+",
@@ -19,72 +21,80 @@
         "companyURL": "https://fictionalcomputerhaverwebsite.com"
       },
       {
-        "id": 1233264352435235424354556,
+        "id": 12332643524352354,
         "title": "Full-Stack Developer",
         "company": "LakeOperations",
+        "description": "Full-Stack Developer using",
         "location": "Global",
         "salary": "$80,000+",
         "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a",
         "companyURL": "https://fictionallakeoperationswebsite.com"
       },
       {
-        "id": 5674323542345745674570512,
+        "id": 567432354234574,
         "title": "Front-End Developer",
         "company": "ComputerHaver",
+        "description": "Full-Stack Developer using",
         "location": "Global",
         "salary": "$85,000+",
         "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a",
         "companyURL": "https://fictionalcomputerhaverwebsite.com"
       },
       {
-        "id": 89043524352354243563,
+        "id": 8904352435235,
         "title": "Full-Stack Developer",
         "company": "LakeOperations",
+        "description": "Full-Stack Developer using",
         "location": "Global",
         "salary": "$80,000+",
         "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a",
         "companyURL": "https://fictionallakeoperationswebsite.com"
       },
       {
-        "id": 367523542345745674570711,
+        "id": 36752354234574567,
         "title": "Front-End Developer",
         "company": "ComputerHaver",
+        "description": "Full-Stack Developer using",
         "location": "Global",
         "salary": "$85,000+",
         "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a",
         "companyURL": "https://fictionalcomputerhaverwebsite.com"
       },
       {
-        "id": 89326435243523542423,
+        "id": 89326435243523,
         "title": "Full-Stack Developer",
         "company": "LakeOperations",
+        "description": "Full-Stack Developer using",
         "location": "Global",
         "salary": "$80,000+",
         "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a",
         "companyURL": "https://fictionallakeoperationswebsite.com"
       },
       {
-        "id": 4324323542345745674570,
+        "id": 432432354234,
         "title": "Front-End Developer",
         "company": "ComputerHaver",
+        "description": "Full-Stack Developer using",
         "location": "Global",
         "salary": "$85,000+",
         "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a",
         "companyURL": "https://fictionalcomputerhaverwebsite.com"
       },
       {
-        "id": 21389043524352354243563,
+        "id": 21389043524352,
         "title": "Full-Stack Developer",
         "company": "LakeOperations",
+        "description": "Full-Stack Developer using",
         "location": "Global",
         "salary": "$80,000+",
         "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a",
         "companyURL": "https://fictionallakeoperationswebsite.com"
       },
       {
-        "id": 456523542345745674570711,
+        "id": 4565235423457456,
         "title": "Front-End Developer",
         "company": "ComputerHaver",
+        "description": "Full-Stack Developer using",
         "location": "Global",
         "salary": "$85,000+",
         "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a",

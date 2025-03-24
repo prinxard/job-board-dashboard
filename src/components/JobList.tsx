@@ -1,5 +1,4 @@
-"use client";
-
+"use client"
 import { useEffect, useState } from "react";
 import JobCard from "./JobCard";
 import SearchBar from "./SearchBar";
@@ -12,6 +11,7 @@ export default function JobList() {
   const [query, setQuery] = useState<string>("");
   const [location, setLocation] = useState<string>("");
   const [salary, setSalary] = useState<string>("");
+  const [visibleJobs, setVisibleJobs] = useState<number>(6);
 
   useEffect(() => {
     setJobs(jobsData.jobItems);
@@ -39,14 +39,26 @@ export default function JobList() {
     setFilteredJobs(filtered);
   }, [query, location, salary, jobs]);
 
+  const loadMoreJobs = () => {
+    setVisibleJobs((prev) => prev + 6);
+  };
+
   return (
     <div className="mt-6">
       <SearchBar setQuery={setQuery} setLocation={setLocation} setSalary={setSalary} />
       <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-        {filteredJobs.map((job) => (
+        {filteredJobs.slice(0, visibleJobs).map((job) => (
           <JobCard key={job.id} job={job} />
         ))}
       </div>
+      {visibleJobs < filteredJobs.length && (
+        <button
+          onClick={loadMoreJobs}
+          className="mt-6 block mx-auto bg-blue-600 text-white py-2 px-4 rounded"
+        >
+          Load More
+        </button>
+      )}
     </div>
   );
 }

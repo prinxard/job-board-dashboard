@@ -6,5 +6,6 @@ export interface Job {
     salary: string;
     coverImgURL: string;
     companyURL: string;
+    description: string,
   }
   
