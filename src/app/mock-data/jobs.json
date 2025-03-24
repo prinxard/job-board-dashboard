@@ -1,0 +1,23 @@
+{
+    "jobItems": [
+      {
+        "id": 435243523542435,
+        "title": "Full-Stack Developer",
+        "company": "LakeOperations",
+        "location": "Global",
+        "salary": "$80,000+",
+        "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a",
+        "companyURL": "https://fictionallakeoperationswebsite.com"
+      },
+      {
+        "id": 23542345745674570,
+        "title": "Front-End Developer",
+        "company": "ComputerHaver",
+        "location": "Global",
+        "salary": "$85,000+",
+        "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a",
+        "companyURL": "https://fictionalcomputerhaverwebsite.com"
+      }
+    ]
+  }
+  
