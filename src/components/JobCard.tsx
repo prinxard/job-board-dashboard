@@ -13,7 +13,7 @@ export default function JobCard({ job }: JobCardProps) {
       alt={job.company}
       className="w-40 h-40 object-cover rounded-lg"
     />
-    <div>
+    <article>
       <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
         {job.title}
       </h2>
@@ -26,7 +26,7 @@ export default function JobCard({ job }: JobCardProps) {
       >
         View Details
       </Link>
-    </div>
+    </article>
   </div>
   
   );

@@ -51,7 +51,7 @@ export default function JobApplicationForm() {
         href={`/`}
         className="inline-block mt-2 bg-blue-600 text-white py-2 px-4 rounded text-center"
       >
-        Back
+        Home
       </Link>
 
 

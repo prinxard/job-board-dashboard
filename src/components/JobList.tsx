@@ -46,11 +46,11 @@ export default function JobList() {
   return (
     <div className="mt-6">
       <SearchBar setQuery={setQuery} setLocation={setLocation} setSalary={setSalary} />
-      <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      <section className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {filteredJobs.slice(0, visibleJobs).map((job) => (
           <JobCard key={job.id} job={job} />
         ))}
-      </div>
+      </section>
       {visibleJobs < filteredJobs.length && (
         <button
           onClick={loadMoreJobs}
