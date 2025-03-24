@@ -19,8 +19,12 @@ export default function JobDetails({ params }: JobDetailsProps) {
       <p className="text-gray-600">{job.company}</p>
       <p className="text-gray-600">{job.location}</p>
       <p className="text-green-600 font-semibold">{job.salary}</p>
-      
-      <img src={job.coverImgURL} alt={job.company} className="w-full h-60 object-cover my-4 rounded-lg" />
+
+      <img
+        src={job.coverImgURL}
+        alt={job.company}
+        className="w-full h-60 object-cover my-4 rounded-lg"
+      />
 
       <p className="mt-4">{job.description}</p>
 

@@ -1,4 +1,7 @@
-import JobApplicationForm from "@/components/JobpplicationForm";
+
+"use clent"
+
+import JobApplicationForm from "@/components/JobApplicationForm";
 
 export default function ApplyJob() {
   return (
