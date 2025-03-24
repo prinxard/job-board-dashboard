@@ -4,101 +4,101 @@
         "id": 13435243523542,
         "title": "Full-Stack Developer",
         "description": "Full-Stack Developer using",
-        "company": "LakeOperations",
-        "location": "Global",
-        "salary": "$80,000+",
+        "company": "NeuralSync",
+        "location": "Lagos",
+        "salary": "$1,000",
         "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a",
-        "companyURL": "https://fictionallakeoperationswebsite.com"
+        "companyURL": "https://fictionalNeuralSync.com"
       },
       {
         "id": 231235423457456,
         "title": "Front-End Developer",
         "description": "Full-Stack Developer using",
         "company": "ComputerHaver",
-        "location": "Global",
-        "salary": "$85,000+",
-        "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a",
+        "location": "Abuja",
+        "salary": "$2,000",
+        "coverImgURL": "https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "companyURL": "https://fictionalcomputerhaverwebsite.com"
       },
       {
         "id": 12332643524352354,
-        "title": "Full-Stack Developer",
-        "company": "LakeOperations",
-        "description": "Full-Stack Developer using",
-        "location": "Global",
-        "salary": "$80,000+",
-        "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a",
-        "companyURL": "https://fictionallakeoperationswebsite.com"
+        "title": "Machine Learning Engineer",
+        "company": "QuantumNexus",
+        "description": "Builds AI models and automation systems.",
+        "location": "Ibadan",
+        "salary": "$1,000+",
+        "coverImgURL": "https://plus.unsplash.com/premium_photo-1682216872195-0bfacc36b02c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "companyURL": "https://fictionalQuantumNexus.com"
       },
       {
         "id": 567432354234574,
         "title": "Front-End Developer",
-        "company": "ComputerHaver",
-        "description": "Full-Stack Developer using",
-        "location": "Global",
-        "salary": "$85,000+",
+        "company": "ByteHorizon",
+        "description": "Builds and maintains the user interface of web applications.",
+        "location": "Lagos",
+        "salary": "$2,000",
         "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a",
-        "companyURL": "https://fictionalcomputerhaverwebsite.com"
+        "companyURL": "https://fictionalByteHorizon.com"
       },
       {
         "id": 8904352435235,
         "title": "Full-Stack Developer",
-        "company": "LakeOperations",
+        "company": "VortexCode",
         "description": "Full-Stack Developer using",
-        "location": "Global",
-        "salary": "$80,000+",
+        "location": "Lagos",
+        "salary": "$1,500",
         "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a",
-        "companyURL": "https://fictionallakeoperationswebsite.com"
+        "companyURL": "https://fictionalVortexCode.com"
       },
       {
         "id": 36752354234574567,
-        "title": "Front-End Developer",
-        "company": "ComputerHaver",
-        "description": "Full-Stack Developer using",
-        "location": "Global",
-        "salary": "$85,000+",
+        "title": "UI/UX Designer",
+        "company": "SynthoAI",
+        "description": "Designs intuitive and visually appealing user experiences.",
+        "location": "Port Harcourt",
+        "salary": "$700",
         "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a",
-        "companyURL": "https://fictionalcomputerhaverwebsite.com"
+        "companyURL": "https://fictionalSynthoAI.com"
       },
       {
         "id": 89326435243523,
-        "title": "Full-Stack Developer",
-        "company": "LakeOperations",
-        "description": "Full-Stack Developer using",
+        "title": "Cloud Engineer",
+        "company": "StratosWare",
+        "description": "Designs and maintains cloud-based systems.",
         "location": "Global",
-        "salary": "$80,000+",
+        "salary": "$8,000",
         "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a",
-        "companyURL": "https://fictionallakeoperationswebsite.com"
+        "companyURL": "https://fictionalStratosWare.com"
       },
       {
         "id": 432432354234,
-        "title": "Front-End Developer",
-        "company": "ComputerHaver",
-        "description": "Full-Stack Developer using",
+        "title": "Cybersecurity Analyst",
+        "company": "NovaCircuit",
+        "description": "Protects systems and data from cyber threats.",
         "location": "Global",
-        "salary": "$85,000+",
+        "salary": "$3,000",
         "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a",
-        "companyURL": "https://fictionalcomputerhaverwebsite.com"
+        "companyURL": "https://fictionalNovaCircuit.com"
       },
       {
         "id": 21389043524352,
-        "title": "Full-Stack Developer",
-        "company": "LakeOperations",
-        "description": "Full-Stack Developer using",
+        "title": "Data Scientist",
+        "company": "HyperLink Labs",
+        "description": "Analyzes and interprets complex data using AI/ML.",
         "location": "Global",
-        "salary": "$80,000+",
+        "salary": "$4,000",
         "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a",
-        "companyURL": "https://fictionallakeoperationswebsite.com"
+        "companyURL": "https://fictionalHyperLink Labs.com"
       },
       {
         "id": 4565235423457456,
-        "title": "Front-End Developer",
-        "company": "ComputerHaver",
-        "description": "Full-Stack Developer using",
+        "title": "DevOps Engineer",
+        "company": "EchoTech Systems",
+        "description": "Manages infrastructure, CI/CD pipelines, and deployment automation.",
         "location": "Global",
-        "salary": "$85,000+",
+        "salary": "$5,000",
         "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a",
-        "companyURL": "https://fictionalcomputerhaverwebsite.com"
+        "companyURL": "https://fictionalEchoTechSystems.com"
       }
     ]
   }

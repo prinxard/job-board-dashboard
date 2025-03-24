@@ -46,15 +46,15 @@ export default function JobApplicationForm() {
       <h2 className="text-2xl font-bold mb-4">Apply for this Job</h2>
       {submitted ? (
         <div>
-        <p className="text-green-600 font-semibold">Application Submitted Successfully!</p>
-        <Link
-        href={`/`}
-        className="inline-block mt-2 bg-blue-600 text-white py-2 px-4 rounded text-center"
-      >
-        Home
-      </Link>
-
-
+          <p className="text-green-600 font-semibold">
+            Application Submitted Successfully!
+          </p>
+          <Link
+            href={`/`}
+            className="inline-block mt-2 bg-blue-600 text-white py-2 px-4 rounded text-center"
+          >
+            Home
+          </Link>
         </div>
       ) : (
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">

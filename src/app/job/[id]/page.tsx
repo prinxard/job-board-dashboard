@@ -29,11 +29,24 @@ export default function JobDetails({ params }: JobDetailsProps) {
       <p className="mt-4">{job.description}</p>
 
       <div className="mt-6 flex gap-4">
-        <Link href={job.companyURL} target="_blank" className="bg-blue-500 text-white py-2 px-4 rounded">
+        <Link
+          href={job.companyURL}
+          target="_blank"
+          className="bg-blue-500 text-white py-2 px-4 rounded"
+        >
           Visit Company Website
         </Link>
-        <Link href={`/job/${job.id}/apply`} className="bg-green-500 text-white py-2 px-4 rounded">
+        <Link
+          href={`/job/${job.id}/apply`}
+          className="bg-green-500 text-white py-2 px-4 rounded"
+        >
           Apply Now
+        </Link>
+        <Link
+          href={`/`}
+          className="bg-gray-500 text-white py-2 px-4 rounded"
+        >
+          Home
         </Link>
       </div>
     </main>
