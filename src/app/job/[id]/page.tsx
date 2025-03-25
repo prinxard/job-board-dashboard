@@ -1,14 +1,16 @@
+"use client";
+
+import { useParams } from "next/navigation";
 import { Job } from "@/app/types/job";
 import jobsData from "@/app/mock-data/jobs.json";
 import Link from "next/link";
 
-interface Props {
-  params: { id: string };
-}
+export default function JobDetails() {
+  const params = useParams();
+  const jobId = Number(params.id);
 
-export default function JobDetails({ params }: Props) {
   const job: Job | undefined = jobsData.jobItems.find(
-    (job) => job.id.toString() == params.id
+    (job) => job.id === jobId
   );
 
   if (!job) return <p className="text-center text-red-500">Job not found</p>;

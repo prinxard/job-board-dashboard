@@ -1,8 +1,9 @@
 
 ## Getting Started
 
-First, install the dependencies:
-**npm install** or 
+First, install the dependencies
+**npm install** 
+or 
 **yarn install** 
 
 To run the development server
