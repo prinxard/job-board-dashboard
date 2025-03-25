@@ -6,7 +6,7 @@ interface JobDetailsProps {
   params: { id: string };
 }
 
-export default function JobDetails({ params }: JobDetailsProps) {
+export default async function JobDetails({ params }: JobDetailsProps) {
   const job: Job | undefined = jobsData.jobItems.find(
     (job) => job.id.toString() === params.id
   );
