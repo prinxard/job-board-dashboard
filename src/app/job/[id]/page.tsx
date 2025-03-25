@@ -1,12 +1,13 @@
 import { Job } from "@/app/types/job";
 import jobsData from "@/app/mock-data/jobs.json";
 import Link from "next/link";
+import { PropsWithChildren } from "react";
 
-interface JobDetailsProps {
+interface JobDetailsProps extends PropsWithChildren {
   params: { id: string };
 }
 
-export default async function JobDetails({ params }: JobDetailsProps) {
+export default function JobDetails({ params }: JobDetailsProps) {
   const job: Job | undefined = jobsData.jobItems.find(
     (job) => job.id.toString() === params.id
   );
