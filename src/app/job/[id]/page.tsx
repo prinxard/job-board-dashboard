@@ -1,15 +1,14 @@
 import { Job } from "@/app/types/job";
 import jobsData from "@/app/mock-data/jobs.json";
 import Link from "next/link";
-import { PropsWithChildren } from "react";
 
-interface JobDetailsProps extends PropsWithChildren {
+interface Props {
   params: { id: string };
 }
 
-export default function JobDetails({ params }: JobDetailsProps) {
+export default function JobDetails({ params }: Props) {
   const job: Job | undefined = jobsData.jobItems.find(
-    (job) => job.id.toString() === params.id
+    (job) => job.id.toString() == params.id
   );
 
   if (!job) return <p className="text-center text-red-500">Job not found</p>;

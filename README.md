@@ -1,10 +1,14 @@
 
 ## Getting Started
 
-First, **npm install** or **yarn install** to install the dependencies:
+First, install the dependencies:
+**npm install** or 
+**yarn install** 
 
 To run the development server
-**npm run dev** or **yarn run dev**
+ - **npm run dev** 
+or 
+ - **yarn dev**
 
 # Job Board Dashboard
 
