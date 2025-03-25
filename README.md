@@ -1,7 +1,7 @@
 
 ## Getting Started
 
-First, install the dependencies
+Install the dependencies
 **npm install** 
 or 
 **yarn install** 
