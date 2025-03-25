@@ -1,12 +1,9 @@
 import { Job } from "@/app/types/job";
 import jobsData from "@/app/mock-data/jobs.json";
 import Link from "next/link";
+import { PageProps } from "next";
 
-interface JobDetailsProps {
-  params: { id: string };
-}
-
-export default function JobDetails({ params }: JobDetailsProps) {
+export default function JobDetails({ params }: PageProps) {
   const job: Job | undefined = jobsData.jobItems.find(
     (job) => job.id.toString() === params.id
   );
@@ -42,10 +39,7 @@ export default function JobDetails({ params }: JobDetailsProps) {
         >
           Apply Now
         </Link>
-        <Link
-          href={`/`}
-          className="bg-gray-500 text-white py-2 px-4 rounded"
-        >
+        <Link href={`/`} className="bg-gray-500 text-white py-2 px-4 rounded">
           Home
         </Link>
       </div>
