@@ -27,7 +27,6 @@ export default function JobDetails() {
         alt={job.company}
         className="w-full h-60 object-cover my-4 rounded-lg"
       />
-
       <p className="mt-4">{job.description}</p>
 
       <div className="mt-6 flex gap-4">
