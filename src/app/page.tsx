@@ -7,6 +7,7 @@ export default function Home() {
         Job Listings
       </h1>
       <JobList />
+      
     </main>
   );
 }
