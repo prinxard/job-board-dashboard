@@ -25,7 +25,7 @@ export default function JobDetails() {
       <img
         src={job.coverImgURL}
         alt={job.company}
-        className="w-full h-60 object-cover my-4 rounded-lg"
+        className="object-cover w-72 h-60 my-4 rounded-lg"
       />
       <p className="mt-4">{job.description}</p>
 
