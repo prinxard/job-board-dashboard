@@ -6,7 +6,7 @@
         "description": "proficient in both front-end (client-side) and back-end (server-side) development. handle everything from designing user interfaces to managing databases and server logic, ensuring end-to-end functionality of web applications.",
         "company": "NeuralSync",
         "location": "Lagos",
-        "salary": "$1,000 - $2,000",
+        "salary": "$1,000",
         "coverImgURL": "https://images.unsplash.com/photo-1551150441-3f3828204ef0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "companyURL": "https://fictionalNeuralSync.com"
       },
@@ -16,7 +16,7 @@
         "description": "specializes in building the user interface (UI) and client-side functionality of websites and web applications. focus on creating visually appealing, responsive, and interactive experiences that users interact with directly.",
         "company": "ComputerHaver",
         "location": "Abuja",
-        "salary": "$2,000 - $3,000",
+        "salary": "$2,000",
         "coverImgURL": "https://images.unsplash.com/photo-1562307534-a03738d2a81a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "companyURL": "https://fictionalcomputerhaverwebsite.com"
       },
@@ -26,7 +26,7 @@
         "company": "QuantumNexus",
         "description": "Builds AI models and automation systems.",
         "location": "Ibadan",
-        "salary": "$3,000 - $5,000",
+        "salary": "$3,000",
         "coverImgURL": "https://plus.unsplash.com/premium_photo-1682216872195-0bfacc36b02c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "companyURL": "https://fictionalQuantumNexus.com"
       },
@@ -36,7 +36,7 @@
         "company": "ByteHorizon",
         "description": "Builds and maintains the user interface of web applications.",
         "location": "Lagos",
-        "salary": "$2,000 - $3,000",
+        "salary": "$2,000",
         "coverImgURL": "https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?t=st=1742998651~exp=1743002251~hmac=0d9bb82cd52e25a49ca78b677d55dc90782e1d2426258dd08c621e6e955a32a0&w=900",
         "companyURL": "https://fictionalByteHorizon.com"
       },
@@ -46,7 +46,7 @@
         "company": "VortexCode",
         "description": "Full-Stack Developer using",
         "location": "Lagos",
-        "salary": "$1,500 - $3,000",
+        "salary": "$1,500",
         "coverImgURL": "https://img.freepik.com/premium-vector/logo-thai-restaurant-called-d_249011-1383.jpg?w=900",
         "companyURL": "https://fictionalVortexCode.com"
       },
@@ -56,7 +56,7 @@
         "company": "SynthoAI",
         "description": "Designs intuitive and visually appealing user experiences.",
         "location": "Port Harcourt",
-        "salary": "$700 - $1,500",
+        "salary": "$700",
         "coverImgURL": "https://img.freepik.com/free-vector/editable-business-logo-vector-with-astrotech-word_53876-110949.jpg?t=st=1743000655~exp=1743004255~hmac=8619321b81ebfa099beb00012a4f2a64c7b733e577871f21a22bca818de32812&w=1380",
         "companyURL": "https://fictionalSynthoAI.com"
       },
@@ -66,7 +66,7 @@
         "company": "StratosWare",
         "description": "Designs and maintains cloud-based systems.",
         "location": "Global",
-        "salary": "$8,000 - 10,000",
+        "salary": "$8,000",
         "coverImgURL": "https://img.freepik.com/premium-vector/eh-calligraphic-signature-vector-logo-design-with-circle-gold-color-leaf-flower_1119385-142.jpg?w=900",
         "companyURL": "https://fictionalStratosWare.com"
       },
@@ -76,7 +76,7 @@
         "company": "NovaCircuit",
         "description": "Protects systems and data from cyber threats.",
         "location": "Global",
-        "salary": "$3,000 - $5,000",
+        "salary": "$3,000",
         "coverImgURL": "https://img.freepik.com/premium-vector/hla-logo-hla-letter-hla-letter-logo-design-initials-hla-logo-linked-with-circle-uppercase-monogram-logo-hla-typography-technology-business-real-estate-brand_229120-74341.jpg?w=900",
         "companyURL": "https://fictionalNovaCircuit.com"
       },
@@ -86,7 +86,7 @@
         "company": "HyperLink Labs",
         "description": "Analyzes and interprets complex data using AI/ML.",
         "location": "Global",
-        "salary": "$4,000 - $6,000",
+        "salary": "$4,000",
         "coverImgURL": "https://img.freepik.com/free-vector/golden-elegant-logo-with-frame_52683-13462.jpg?t=st=1743000873~exp=1743004473~hmac=6cb11690246fded386bdc28205981803c7e099ad097d6e6f8787f743783d5dd2&w=900",
         "companyURL": "https://fictionalHyperLink Labs.com"
       },
@@ -96,7 +96,7 @@
         "company": "EchoTech Systems",
         "description": "Manages infrastructure, CI/CD pipelines, and deployment automation.",
         "location": "Global",
-        "salary": "$5,000 - $7,000",
+        "salary": "$5,000",
         "coverImgURL": "https://images.unsplash.com/photo-1610374792793-f016b77ca51a",
         "companyURL": "https://fictionalEchoTechSystems.com"
       }
