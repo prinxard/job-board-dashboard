@@ -20,7 +20,7 @@ interface SearchBarProps {
           onChange={(e) => setLocation(e.target.value)}
         />
         <input
-          type="number"
+          inputMode="numeric"
           placeholder="Min Salary ($)"
           className="p-2 border rounded w-full md:w-1/3"
           onChange={(e) => setSalary(e.target.value)}
