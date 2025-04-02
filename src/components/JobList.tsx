@@ -8,7 +8,7 @@ import { Job } from "@/app/types/job";
 export default function JobList() {
   const [jobs, setJobs] = useState<Job[]>([]);
   const [filteredJobs, setFilteredJobs] = useState<Job[]>([]);
-  const [query, setQuery] = useState<string>("");
+  const [title, setTitle] = useState<string>("");
   const [location, setLocation] = useState<string>("");
   const [salary, setSalary] = useState<string>("");
   const [visibleJobs, setVisibleJobs] = useState<number>(6);
@@ -20,7 +20,7 @@ export default function JobList() {
 
   useEffect(() => {
     let filtered = jobs.filter((job) =>
-      job.title.toLowerCase().includes(query.toLowerCase())
+      job.title.toLowerCase().includes(title.toLowerCase())
     );
 
     if (location) {
@@ -37,7 +37,7 @@ export default function JobList() {
       }
 
     setFilteredJobs(filtered);
-  }, [query, location, salary, jobs]);
+  }, [title, location, salary, jobs]);
 
   const loadMoreJobs = () => {
     setVisibleJobs((prev) => prev + 6);
@@ -45,7 +45,7 @@ export default function JobList() {
 
   return (
     <div className="mt-6">
-      <SearchBar setQuery={setQuery} setLocation={setLocation} setSalary={setSalary} />
+      <SearchBar setTitle={setTitle} setLocation={setLocation} setSalary={setSalary} />
       <section className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {filteredJobs.slice(0, visibleJobs).map((job) => (
           <JobCard key={job.id} job={job} />
