@@ -6,13 +6,14 @@ import * as yup from "yup";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
+// defining the form schema with yup
 interface FormValues {
   fullName: string;
   email: string;
   resume: FileList | null;
   coverLetter: string;
 }
-
+// defining the validation rules
 const schema: yup.ObjectSchema<FormValues> = yup.object({
   fullName: yup.string().required("Full Name is required"),
   email: yup.string().email("Invalid email").required("Email is required"),
@@ -25,6 +26,7 @@ const schema: yup.ObjectSchema<FormValues> = yup.object({
   coverLetter: yup.string().required("Cover Letter is required"),
 });
 
+// form setup with react hook form
 export default function JobApplicationForm() {
   const [submitted, setSubmitted] = useState(false);
   const router = useRouter();
